@@ -1,5 +1,5 @@
 class Post 
-  attr_accessor :title
+  attr_accessor :title, :author
   
   @@all = []
  
@@ -12,9 +12,9 @@ class Post
     @@all
   end  
   
-  def artist_name
-    if @artist != nil
-      self.artist.name
+  def author_name
+    if @author != nil
+      self.author.name
     else
       nil
     end
