@@ -12,12 +12,12 @@ class Post
     @@all
   end  
   
-  # def artist_name
-  #   if @artist != nil
-  #     self.artist.name
-  #   else
-  #     nil
-  #   end
-  # end
+  def artist_name
+    if @artist != nil
+      self.artist.name
+    else
+      nil
+    end
+  end
   
 end
