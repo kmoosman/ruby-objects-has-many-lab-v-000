@@ -8,16 +8,16 @@ class Post
     # @@all << self 
   end
   
-  def self.all
-    @@all
-  end  
+  # def self.all
+  #   @@all
+  # end  
   
-  def artist_name
-    if @artist != nil
-      self.artist.name
-    else
-      nil
-    end
+  # def artist_name
+  #   if @artist != nil
+  #     self.artist.name
+  #   else
+  #     nil
+  #   end
   end
   
 end
